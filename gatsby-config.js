@@ -1,24 +1,24 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "hofstede-globe",
+    siteUrl: 'https://www.yourdomain.tld',
+    title: 'hofstede-globe',
   },
   plugins: [
-    "gatsby-plugin-styled-components",
+    'gatsby-plugin-styled-components',
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: "G-9KHFVG54ST",
+        trackingId: 'G-9KHFVG54ST',
       },
     },
-    "gatsby-plugin-mdx",
+    'gatsby-plugin-mdx',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: 'pages',
+        path: './src/pages/',
       },
-      __key: "pages",
+      __key: 'pages',
     },
   ],
 };
