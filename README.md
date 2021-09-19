@@ -1,1 +1,1 @@
-# globe-viz
+## Hofstede's Globe
